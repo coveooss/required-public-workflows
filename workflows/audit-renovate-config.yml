@@ -1,0 +1,5 @@
+name: Audit Renovate Config
+on: pull_request
+jobs:
+  check:
+    uses: coveo-platform/renovate/.github/workflows/_audit-renovate-config.yml@main
