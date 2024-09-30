@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1beta1
 kind: Component
 metadata:
-  name: required-workflows-coveooss
-  title: Required GitHub Workflows (coveooss)
+  name: required-public-workflows-coveooss
+  title: Required Public GitHub Workflows (coveooss)
 spec:
   type: ci
   lifecycle: production
