@@ -2,4 +2,7 @@ name: Audit Renovate Config
 on: pull_request
 jobs:
   check:
-    uses: coveo-platform/renovate/.github/workflows/_audit-renovate-config.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: coveo/public-actions/audit-renovate-config@CIA-583/audit-renovate-config
