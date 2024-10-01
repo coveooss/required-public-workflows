@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: coveo/public-actions/audit-renovate-config@CIA-583/audit-renovate-config
+      - uses: coveo/public-actions/audit-renovate-config@main
